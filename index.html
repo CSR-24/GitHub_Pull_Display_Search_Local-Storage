@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub-Pull-Display-Search-LocalStorage</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/css-spinning-spinners/1.1.1/load8.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id='repoFetchApp'>
+  <div id='userIn'>
+    <div class='userInput'><input type='text' placeholder='Organization (~ prestodb)'  id='userInput1'></div>
+    <div class='userInput'><input type='text' placeholder='Repository (~ presto)'  id='userInput2'></div>
+    <div class='userInput'><input type='button' value='Fetch Data' id='btn-fetchRepo'></div>
+  </div>
+  <div id='search'><input type='text' placeholder ='Search (Starts @ 2 Chars)' id='searchTitle'></div>
+  <div id='results'>
+    <table id='table-results'>
+      <tr id='table-header'>
+        <th class='PR' style='color: white; font-size: 18px;'>PR Number</th>
+        <th class='title' style='color: white; font-size: 18px;'>Title</th>
+        <th class='user' style='color: white; font-size: 18px;'>User</th>
+        <th class='path' style='color: white; font-size: 18px;'>Path URL</th>
+        <th class='state' style='color: white; font-size: 18px;'>State</th>
+      </tr>
+    </table>
+    <div id='noRecords'><h3>No Records to Display!</h3></div>
+    <div id='loadRecords'> Loading... <br><img src='https://www.wallies.com/filebin/images/loading_apple.gif' width='50px' height='50px'></div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
