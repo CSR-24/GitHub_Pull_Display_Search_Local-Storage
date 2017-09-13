@@ -1,0 +1,110 @@
+.backgroundColorDiv {
+  background: lightblue;
+}
+#repoFetchApp {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  overflow: auto;
+  background: white;
+}
+#searchTitle {
+  position: absolute;
+  top: 60px;
+  left: 770px;
+  bottom: 450px;
+  right: 200px;
+  width: 200px;
+  height: 30px;
+}
+#userIn {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  left: 1px;
+  bottom: 350px;
+  background: steelblue;
+}
+.userInput {
+  padding: 5px;
+}
+#results {
+  position: absolute;
+  top: 105px;
+  bottom: 10px;
+  width: 100%;
+  background: lightblue;
+}
+#table-results {
+  width: inherit;
+  color: white;
+  padding: 10px;
+}
+#table-header {
+  background: red;
+  height: 50px;
+}
+.PR {
+  width: 120px;
+  font-family: Arial;
+  font-size: 12.5px;
+  color: black;
+}
+#noRecords {
+  position: inherit;
+  left: 400px;
+  font-size: 20px;
+  color: black;
+  font-family: Arial;
+}
+#loadRecords {
+  font-size: 20px;
+  margin: auto;
+  position: absolute;
+  left: 450px;
+  top: 170px;
+  color: white;
+}
+.title {
+  width: 330px;
+  font-family: Arial;
+  font-size: 12.5px;
+  color: black;
+}
+.user {
+  width: 100px;
+  font-family: Arial;
+  font-size: 12.5px;
+  color: black;
+}
+.path {
+  width: 250px;
+  font-family: Arial;
+  font-size: 12.5px;
+  color: black;
+}
+.state {
+  width: 100px;
+  font-family: Arial;
+  font-size: 12.5px;
+  color: black;
+}
+#btn-fetchRepo {
+  width: 100px;
+  height: 30px;
+}
+table {
+  border-collapse: collapse;
+}
+table td {
+  padding: 5px;
+  border: 1px solid black;
+}
+table th {
+  padding: 20px;
+  border: 1px solid black;
+}
+table tr:hover {
+  background-color: lightyellow;
+}
